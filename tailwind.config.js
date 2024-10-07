@@ -6,7 +6,20 @@ export default {
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+      'prime': '#FADFCA',
+      'mainColor' :'#252422',
+      'primary-3':'#ffbcbc',
+      'secondary-3':'#fadfca'
+      }
+    },
+    fontFamily: {
+      'Helvetica': ['ui-Helvetica', 'sans-serif'],
+      'sora': ['ui-Sora', 'sans-serif'],
+      
+    }
+   
   },
   plugins: [import("flowbite/plugin")],
 };
