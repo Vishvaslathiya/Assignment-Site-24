@@ -6,57 +6,57 @@ import financeImg from '../assets/financeImg.svg';
 import designImg from '../assets/designImg.svg';
 
 const Step = () => {
-    return (    
+    return (
         <div className="step-section py-10 lg:py-16 mt-10">
             <div className="container mx-auto px-6  ">
                 <div className="grid grid-cols-1 lg:grid-cols-2  relative items-center grid-step">
                     {/* Left Side Image with Overlays */}
-                        <div className="relative rounded-full overflow-hidden mr-[50px] text-5xl sm:text-4xl md:mr-[40px] lg:mr-[40px] " style={{boxShadow:'9px 5px 0 0 black'}} >
-                            <img
-                                src={maleImg}
-                                alt="About 01"
-                                className="w-full h-auto step-image" 
-                            />
-                        </div>
+                    <div className="relative rounded-full overflow-hidden mr-[50px] text-5xl sm:text-4xl md:mr-[40px] lg:mr-[68px] lg:ml-[1px] lg:mb-[12px] " style={{ boxShadow: '9px 5px 0 0 black' }} >
+                        <img
+                            src={maleImg}
+                            alt="About 01"
+                            className="w-full h-auto step-image"
+                        />
+                    </div>
 
-                        {/* Congrats Message */}
-                        <div className="absolute top-4  right-4 sm:left-[29%] bg-white shadow-lg rounded-lg p-3 sm:p-4 w-36 sm:w-48 text-center">
-                            <img
-                                src={checkImg}
-                                alt="Checkmark Icon"
-                                className="mx-auto w-6 sm:w-8 h-6 sm:h-8"
-                            />
-                            <h4 className="text-lg sm:text-xl font-semibold mt-2 font-sora pb-2">Congrats!!</h4>
-                            <p className="text-mainColor text-xs sm:text-sm">Your profile was done successfully</p>
-                        </div>
+                    {/* Congrats Message */}
+                    <div className="absolute top-4  right-4   lg:left-[29%] sm:left-[71%] bg-white shadow-lg rounded-lg p-3 sm:p-4 w-36 sm:w-48 text-center">
+                        <img
+                            src={checkImg}
+                            alt="Checkmark Icon"
+                            className="mx-auto w-6 sm:w-8 h-6 sm:h-8"
+                        />
+                        <h4 className="text-lg sm:text-xl font-semibold mt-2 font-sora pb-2">Congrats!!</h4>
+                        <p className="text-mainColor text-xs sm:text-sm">Your profile was done successfully</p>
+                    </div>
 
-                        {/* Create Account Section */}
-                        <div className="absolute bottom-[-2rem]  edImg lg:left-[20%]    sm:right-[2rem] bg-white shadow-lg rounded-lg p-3 sm:p-4 w-48 sm:w-64 text-center">
-                            <img
-                                src={edulikImg}
-                                alt=" Logo"
-                                className="mx-auto w-20 sm:w-28 h-auto"
-                            />
-                            <h5 className="text-primary-1 text-lg sm:text-xl font-sora font-semibold mt-2">
-                                Online course platform
-                            </h5>
-                            <p className="text-mainColor text-xs mt-2">
-                                Departure defective arranging rapturous did believe him all had supported.
-                            </p>
-                            <a
-                                href="/user-pages/sign-up"
-                                className="bg-black text-white py-1.5 sm:py-2 px-3 sm:px-4 rounded-lg mt-4 inline-block"
-                            >
-                                Create Account
-                            </a>
-                        </div>
+                    {/* Create Account Section */}
+                    <div className="absolute bottom-[-4rem]  edImg lg:left-[20%]    sm:right-[2rem] bg-white shadow-lg rounded-lg p-3 sm:p-4 w-48 sm:w-64 text-center">
+                        <img
+                            src={edulikImg}
+                            alt=" Logo"
+                            className="mx-auto w-20 sm:w-28 h-auto"
+                        />
+                        <h5 className="text-primary-1 text-lg sm:text-xl font-sora font-semibold mt-2">
+                            Online course platform
+                        </h5>
+                        <p className="text-mainColor text-xs mt-2">
+                            Departure defective arranging rapturous did believe him all had supported.
+                        </p>
+                        <a
+                            href="/user-pages/sign-up"
+                            className="bg-black text-white py-1.5 sm:py-2 px-3 sm:px-4 rounded-lg mt-4 inline-block"
+                        >
+                            Create Account
+                        </a>
+                    </div>
 
-                        <div className=" absolute financeImg top-[auto] bottom-[45px] left-[-24px] right-[auto] object-cover	  ">
-                            <img src={financeImg} alt="Finance Icon" />
-                        </div>
-                        <div className="inline-block top-[36%]  left-[auto] right-[56%] object-cover absolute">
-                            <img src={designImg} alt="Design Icon" className='designIcon' />
-                        </div>
+                    <div className=" absolute financeImg top-[auto] bottom-[45px] left-[-24px] right-[auto] object-cover sm:hidden lg:flex 	  ">
+                        <img src={financeImg} alt="Finance Icon" />
+                    </div>
+                    <div className="inline-block top-[36%]  left-[auto] right-[56%] object-cover absolute">
+                        <img src={designImg} alt="Design Icon" className='designIcon' />
+                    </div>
 
                     {/* Right Side: Steps */}
                     <div className="space-y-8 ">
@@ -82,7 +82,7 @@ const Step = () => {
                                 </div>
                             </div>
 
-                            <div className="flex items-start space-x-3 sm:space-x-4 bg-[#c4dac8] w-[80%] rounded-lg p-3 sm:p-5 shadow-md w-full lg:w-9/12  " style={{ boxShadow: '9px 5px 0 0 #89b592',marginLeft:'auto' }}>
+                            <div className="flex items-start space-x-3 sm:space-x-4 bg-[#c4dac8] w-[80%] rounded-lg p-3 sm:p-5 shadow-md w-full lg:w-9/12  " style={{ boxShadow: '9px 5px 0 0 #89b592', marginLeft: 'auto' }}>
                                 <div className="w-10 sm:w-16 md:w-20 h-10 sm:h-12 flex justify-center items-center bg-white rounded-full shadow">
                                     <img
                                         src="https://cdn.prod.website-files.com/64fed37ef8f0a16c147f2b29/658975de80101def93274f42_coin%201.svg"
