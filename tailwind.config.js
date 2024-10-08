@@ -8,19 +8,27 @@ export default {
   theme: {
     extend: {
       colors: {
-      'prime': '#FADFCA',
-      'mainColor' :'#252422',
-      'primary-3':'#ffbcbc',
-      'primary-1':'#89b592',
-      'secondary-3':'#fadfca'
-      }
+        prime: "#FADFCA",
+        mainColor: "#252422",
+        "primary-3": "#ffbcbc",
+        "primary-1": "#89b592",
+        "secondary-3": "#fadfca",
+        "bg-color": "#yourBackgroundColor", // Replace with your background color
+      },
+      screens: {
+        xs: "440px",
+      },
+    },
+    width: {
+      "18rem": "18rem",
+    },
+    padding: {
+      3: "0.75rem",
     },
     fontFamily: {
-      'Helvetica': ['ui-Helvetica', 'sans-serif'],
-      'sora': ['ui-Sora', 'sans-serif'],
-      
-    }
-   
+      Helvetica: ["ui-Helvetica", "sans-serif"],
+      sora: ["ui-Sora", "sans-serif"],
+    },
   },
   plugins: [import("flowbite/plugin")],
 };
