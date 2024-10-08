@@ -11,3 +11,64 @@
     left: auto;
     right: 0%;
 }
+
+
+/* object-fit: cover;
+    position: absolute;
+    top: auto;
+    bottom: 10px;
+    left: -24px;
+    right: auto; */
+.container {
+    max-width: 1460px !important;
+}
+
+@media screen and (max-width:991px) {
+    .financeImg {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    .edImg {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .designIcon {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .grid-step {
+        grid-column-gap: 200px;
+        grid-row-gap: 200px;
+        grid-template-columns: .75fr 1fr;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .decoration{
+        position: absolute;
+        right: -4% !important;
+    }
+}
+@media screen and (max-width:1270px) and (min-width:1023px) {
+    .leftSection{
+        margin-right: 100px;
+    }
+}
+
+
+/* lg:gap-x-80 */
+
+
+/* object-fit: cover;
+    position: absolute;
+    top: 31%;
+    bottom: 0%;
+    left: auto;
+    right: -14%; */

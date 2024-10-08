@@ -11,6 +11,7 @@ export default {
       'prime': '#FADFCA',
       'mainColor' :'#252422',
       'primary-3':'#ffbcbc',
+      'primary-1':'#89b592',
       'secondary-3':'#fadfca'
       }
     },
