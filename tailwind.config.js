@@ -13,7 +13,7 @@ export default {
         "primary-3": "#ffbcbc",
         "primary-1": "#89b592",
         "secondary-3": "#fadfca",
-        "bg-color": "#yourBackgroundColor", // Replace with your background color
+        "bg-color": "#yourBackgroundColor",   
       },
       screens: {
         xs: "440px",
@@ -29,6 +29,10 @@ export default {
       Helvetica: ["ui-Helvetica", "sans-serif"],
       sora: ["ui-Sora", "sans-serif"],
     },
+    backgroundImage: {
+      
+      BgImg: ["url('./assets/bgImg.svg')"],
+    }
   },
   plugins: [import("flowbite/plugin")],
 };

@@ -4,16 +4,19 @@ import maleImg from "../assets/step-11.jpg";
 import edulikImg from "../assets/EDULINK.svg";
 import financeImg from "../assets/financeImg.svg";
 import designImg from "../assets/designImg.svg";
+import userIcon from "../assets/userIcon.svg";
+import dollarIcon from "../assets/dollarIcon.svg";
+import serchIcon from "../assets/serchIcon.svg";
 
 const Step = () => {
   return (
-    <div className="step-section py-10 lg:py-16 mt-10 md:mx-8">
+    <div className="step-section py-10 lg:py-16 mt-10 md:mx-8 mb-10">
       <div className="container mx-auto px-6  ">
         <div className="grid grid-cols-1 lg:grid-cols-2  relative items-center grid-step">
           {/* Left Side Image with Overlays */}
           <div
             className="relative rounded-full overflow-hidden mr-[50px] text-5xl sm:text-4xl md:mr-[40px] lg:mr-[68px] lg:ml-[10px] lg:mb-[16px] "
-            style={{ boxShadow: "9px 5px 0 0 black" }}
+            style={{ boxShadow: "9px 9px 0 0 black" }}
           >
             <img
               src={maleImg}
@@ -38,7 +41,7 @@ const Step = () => {
           </div>
 
           {/* Create Account Section */}
-          <div className="absolute bottom-[-4rem]  edImg lg:left-[20%]    sm:right-[2rem] bg-white shadow-lg rounded-lg p-3 sm:p-4 w-48 sm:w-64 text-center">
+          <div className="absolute bottom-[-4rem]  edImg lg:left-[20%] w-[243px]   sm:right-[2rem] bg-white shadow-lg rounded-lg p-3 sm:p-4 w-48 sm:w-64 text-center">
             <img
               src={edulikImg}
               alt=" Logo"
@@ -62,7 +65,7 @@ const Step = () => {
           <div className=" absolute financeImg top-[auto] bottom-[35px] left-[-24px] right-[auto] object-cover sm:hidden lg:flex 	  ">
             <img src={financeImg} alt="Finance Icon" />
           </div>
-          <div className="inline-block top-[36%]  left-[auto] right-[56%] object-cover absolute">
+          <div className="inline-block top-[36%]  left-[auto] right-[56%] object-cover absolute designIcon2">
             <img src={designImg} alt="Design Icon" className="designIcon" />
           </div>
 
@@ -75,14 +78,14 @@ const Step = () => {
             </div>
             <div className="space-y-4 sm:space-y-6 grid gap-y-2.5 ">
               <div
-                className="flex w-[130%] items-start space-x-3 sm:space-x-4 bg-[#e1e3f6] xs:w-[80%] sm:text-xs rounded-lg p-3 sm:p-5 shadow-md w-full lg:w-10/12 w-[80%]"
+                className="flex w-[130%] items-start space-x-3 step-item sm:space-x-4 bg-[#e1e3f6] xs:w-[80%] sm:text-xs rounded-lg p-3 sm:p-5 shadow-md w-full lg:w-10/12 w-[80%]"
                 style={{ boxShadow: "9px 5px 0 0 #c4c8ee" }}
               >
-                <div className="w-16 sm:w-16 md:w-20 h-12 sm:h-12 flex justify-center items-center bg-white rounded-[50%] shadow">
+                <div className=" flex justify-center items-center bg-white rounded-[50%] w-[50px] h-[50px] flex-none">
                   <img
-                    src="https://cdn.prod.website-files.com/64fed37ef8f0a16c147f2b29/658975fb4c3ee93f91357ef7_search%201.svg"
+                    src={serchIcon}
                     alt="Search Icon"
-                    className="w-5 sm:w-6 h-5 sm:h-6"
+                   
                   />
                 </div>
                 <div>
@@ -97,18 +100,17 @@ const Step = () => {
               </div>
 
               <div
-                className="flex w-[100%] items-start space-x-3 sm:space-x-2 bg-[#c4dac8] sm:w-[80%] rounded-lg p-3 sm:p-5 shadow-md w-full lg:w-9/12  "
+                className="flex w-[80%] items-start step-item two space-x-3 sm:space-x-2 bg-[#c4dac8] sm:w-[80%] rounded-lg p-3 sm:p-5 shadow-md w-full lg:w-9/12  "
                 style={{ boxShadow: "9px 5px 0 0 #89b592", marginLeft: "auto" }}
               >
-                <div className="w-12 sm:w-16 md:w-20 h-12 sm:h-12 flex justify-center items-center bg-white rounded-[50%] shadow">
+                <div className="flex justify-center items-center bg-white rounded-[50%] w-[50px] h-[50px] flex-none">
                   <img
-                    src="https://cdn.prod.website-files.com/64fed37ef8f0a16c147f2b29/658975de80101def93274f42_coin%201.svg"
+                    src={dollarIcon}
                     alt="Coin Icon"
-                    className="w-5 sm:w-6 h-5 sm:h-6"
                   />
                 </div>
                 <div className="w-[80%]">
-                  <h3 className="text-lg sm:text-2xl font-semibold mb-2 whitespace-nowrap	">
+                  <h3 className="text-lg sm:text-2xl font-semibold mb-2 whitespace-nowrap w-min		">
                     Purchase quickly and securely
                   </h3>
                   <p className="text-mainColor text-sm sm:text-base">
@@ -119,14 +121,13 @@ const Step = () => {
               </div>
 
               <div
-                className="flex w-[100%] items-start space-x-3 sm:space-x-4 bg-[#ffefb0]  sm:w-[80%] rounded-lg p-3 sm:p-5 shadow-md w-full lg:w-10/12 w-[80%] "
+                className="flex w-[100%] items-start space-x-3 step-item three sm:space-x-4 bg-[#ffefb0]  sm:w-[80%] rounded-lg p-3 sm:p-5 shadow-md w-full lg:w-10/12 w-[80%] "
                 style={{ boxShadow: "9px 5px 0 0 #ffdf61" }}
               >
-                <div className="w-16 sm:w-16 md:w-20 h-10 sm:h-12 flex justify-center items-center bg-white rounded-[50%] shadow">
+                <div className="flex justify-center items-center bg-white rounded-[50%] w-[50px] h-[50px] flex-none">
                   <img
-                    src="https://cdn.prod.website-files.com/64fed37ef8f0a16c147f2b29/658976b8822f338b473f430a_icon-13.svg"
+                    src={userIcon}
                     alt="Learning Icon"
-                    className="w-5 sm:w-6 h-5 sm:h-6"
                   />
                 </div>
                 <div>

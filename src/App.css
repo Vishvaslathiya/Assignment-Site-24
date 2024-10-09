@@ -12,13 +12,11 @@
     right: 0%;
 }
 
+.owl-carousel .owl-item img {
+    display: block;
+    width: unset !important;
+}
 
-/* object-fit: cover;
-    position: absolute;
-    top: auto;
-    bottom: 10px;
-    left: -24px;
-    right: auto; */
 .container {
     max-width: 1460px !important;
 }
@@ -30,13 +28,13 @@
 }
 
 
-@media screen and (max-width:991px) {
+@media screen and (max-width:1023px) {
     .edImg {
         display: none;
     }
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width:1023px) {
     .designIcon {
         display: none;
     }
@@ -51,24 +49,64 @@
 }
 
 @media screen and (max-width:991px) {
-    .decoration{
+    .decoration {
         position: absolute;
         right: -4% !important;
     }
 }
+
 @media screen and (max-width:1270px) and (min-width:1023px) {
-    .leftSection{
+    .leftSection {
         margin-right: 100px;
     }
 }
 
+@media screen and (max-width:1266px) and (min-width:1023px) {
+    .designIcon2 {
+        position: absolute !important;
+        top: 35% !important;
+        right: 49% !important;
+    }
+}
 
-/* lg:gap-x-80 */
+@media screen and (max-width: 479px) {
+    .step-item {
+        flex-direction: column;
+        width: 100% !important;
+    }
 
 
-/* object-fit: cover;
-    position: absolute;
-    top: 31%;
-    bottom: 0%;
-    left: auto;
-    right: -14%; */
+    .bg-white {
+        padding: 15px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .step-item h3 {
+        font-size: 1rem;
+    }
+
+    .step-item p {
+        font-size: 0.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .step-item div {
+        padding-left: 0;
+    }
+
+    .step-item {
+        width: 100% !important;
+    }
+
+    .bg-white {
+        padding: 15px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
