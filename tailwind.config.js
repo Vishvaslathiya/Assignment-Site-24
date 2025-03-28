@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/flowbite/**/*.js",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -13,7 +9,7 @@ export default {
         "primary-3": "#ffbcbc",
         "primary-1": "#89b592",
         "secondary-3": "#fadfca",
-        "bg-color": "#yourBackgroundColor",   
+        "bg-color": "#FFF",   
       },
       screens: {
         xs: "440px",
@@ -34,5 +30,4 @@ export default {
       BgImg: ["url('./assets/bgImg.svg')"],
     }
   },
-  plugins: [import("flowbite/plugin")],
 };
