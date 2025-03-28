@@ -9,7 +9,6 @@
 // import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 // import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 // import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-// import { Slider } from "@/components/ui/slider"
 // import { Switch } from "@/components/ui/switch"
 // import { Label } from "@/components/ui/label"
 // import { CheckCircle, BookOpen, Clock, Award, Star, FileText, Users, Zap, Mail, Phone, MapPin, Menu, GraduationCap, ArrowRight, Upload, Lightbulb, Coffee, Rocket, Target, Sparkles, Brain, Heart, Smile, ThumbsUp, Gift, Confetti, Party, Music, Fire, Laugh, Wink, Palette, Code, Globe, Headphones, Camera, Tv, Smartphone, Wifi, Cloud, Database, Lock, Shield, Fingerprint } from "lucide-react"
