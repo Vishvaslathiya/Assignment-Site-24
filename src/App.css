@@ -1,0 +1,112 @@
+.shape-1 {
+    z-index: 0;
+    background-color: #c4dac8;
+    opacity: .6;
+    border-bottom-left-radius: 200px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -105px;
+    bottom: auto;
+    left: auto;
+    right: 0%;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: unset !important;
+}
+
+.container {
+    max-width: 1460px !important;
+}
+
+@media screen and (max-width:991px) {
+    .financeImg {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1023px) {
+    .edImg {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .designIcon {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .grid-step {
+        grid-column-gap: 200px;
+        grid-row-gap: 200px;
+        grid-template-columns: .75fr 1fr;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .decoration {
+        position: absolute;
+        right: -4% !important;
+    }
+}
+
+@media screen and (max-width:1270px) and (min-width:1023px) {
+    .leftSection {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width:1266px) and (min-width:1023px) {
+    .designIcon2 {
+        position: absolute !important;
+        top: 35% !important;
+        right: 49% !important;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .step-item {
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+
+    .bg-white {
+        padding: 15px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .step-item h3 {
+        font-size: 1rem;
+    }
+
+    .step-item p {
+        font-size: 0.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .step-item div {
+        padding-left: 0;
+    }
+
+    .step-item {
+        width: 100% !important;
+    }
+
+    .bg-white {
+        padding: 15px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
